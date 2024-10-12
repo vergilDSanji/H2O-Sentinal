@@ -71,3 +71,8 @@ h1{
   transform: translateX(12%);
   transition: transform 0.3s ease;
 }
+
+.blurred-content {
+  filter: blur(8px); /* Apply blur effect */
+  transition: filter 0.3s ease; /* Smooth transition */
+}

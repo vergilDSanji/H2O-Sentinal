@@ -1,0 +1,39 @@
+.Sign{
+    display: flex;
+    flex-direction: column;
+}
+
+.Sign input{
+    padding: 10px;
+    margin: 5px 5%;
+    width: 300px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.Sign button{
+    margin: 5px 5%;
+    width: 300px;
+}
+
+br{
+    margin: 5px 5%;
+    border-bottom: 2px solid black;
+    width: 300px;
+}
+
+p{
+    margin: 5px 5%;
+}
+
+.registor{
+    display: flex;
+}
+
+.registor p{
+    margin-right: 0px;
+}
+
+.registor .re{
+    text-decoration: underline;
+}
