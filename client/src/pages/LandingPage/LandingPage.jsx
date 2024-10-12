@@ -2,7 +2,7 @@ import React from 'react';
 import './LandingPage.css'
 import pipe from '../../assets/pipelines.jpg';
 import logo from '../../assets/logo.jpg';
-import Packages from '../../components/packages/Packages';
+import PlansandPricing from '../../components/PlansandPricing/PlansandPricing'
 
 const LandingPage = () => {
   return (
@@ -50,7 +50,9 @@ const LandingPage = () => {
                 On average, <strong>H2O Sentinel</strong> users reduce their water consumption by 20% to 30%, making sustainability achievable and cost-effective.
             </p>
         </div>
-        <Packages />
+        <div className="buttom-part">
+            <PlansandPricing/>
+        </div>
     </div>
   );
 }

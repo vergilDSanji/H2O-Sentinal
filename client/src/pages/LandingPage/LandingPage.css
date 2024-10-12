@@ -41,6 +41,8 @@
     transition: background-color 0.8s ease, color 0.8s ease, border 0.5s ease; /* Specific properties */
     cursor: pointer;
     font-weight: 500;
+    color: black;
+    text-align: center;
 }
 
 .left button:hover {
@@ -48,6 +50,8 @@
     background-color: var(--primary-color);
     border: 4px solid var(--background-color);
     font-weight: bold;
+    text-align: center;
+    padding: 2px;
 }
 
 .right {
@@ -123,4 +127,8 @@
 .words ul li {
     margin-bottom: 10px;
     list-style: circle;
+}
+
+.buttom-part{
+  margin-bottom: 80px;
 }
