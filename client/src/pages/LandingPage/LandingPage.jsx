@@ -1,58 +1,58 @@
 import React from 'react';
-import './LandingPage.css'
-import pipe from '../../assets/pipelines.jpg';
+import './LandingPage.css';
+import pipe from '../../assets/pipelines.jpeg';
 import logo from '../../assets/logo.jpg';
-import PlansandPricing from '../../components/PlansandPricing/PlansandPricing'
+import PlansandPricing from '../../components/PlansandPricing/PlansandPricing';
 
 const LandingPage = () => {
   return (
     <div className='landing-page'>
-        <div className="middle">
-            <img src={logo} alt="" />
-        </div>
+      <div className="middle">
+        <img src={logo} alt="H2O Sentinel Logo" />
+      </div>
       <div className="grid-container">
-            <div className="left headers">
-            <h2>Enterprises</h2>
-            <h1>
-                Prevent Water Contamination<br />Preserve Our Future.
-            </h1>
-            <p>Learn about our solutions to ensure safe water delivery.</p>
-            <button>Contact Us</button>
-            </div>
-            <div className="right">
-            <img src={pipe} alt="Pipelines" />
-            </div>
+        <div className="left headers">
+          <h2>Farms and Agriculture</h2>
+          <h1>
+            Prevent Water Leakage --<br />Ensure Your Crops Thrive.
+          </h1>
+          <p>Discover how our solutions can help protect your crops and conserve water.</p>
+          <button>Contact Us</button>
         </div>
-        <div className="left words">
-            <h1>Safeguard Against Water Leaks, Secure the Future</h1>
-            <p>
-                Water is essential, but when leaks occur, they can wreak havoc on your business operations. From damaged equipment and electrical systems to halted productivity, the financial and operational toll can be devastating.
-            </p>
-            <p>
-                With <strong>H2O Sentinel</strong>, monitoring your water systems becomes a breeze. Leaks and inefficiencies are detected early, preventing costly damage and disruptions. Our solution uses cutting-edge sensors to monitor water flows 24/7, providing real-time insights to detect anomalies before they escalate.
-            </p>
-            <p>
-                <strong>H2O Sentinel</strong> offers automated and remote shut-off capabilities, allowing you to react instantly to any water-related issues, no matter where you are. Our cloud-based platform gives you full control and visibility, ensuring your business stays protected.
-            </p>
+        <div className="right">
+          <img src={pipe} alt="Irrigation Pipes" />
         </div>
-        <div className="right words">
-            <h1>Optimize Water Efficiency, Save Resources</h1>
-            <p>
-                Water isn't just a vital asset; it’s also a significant cost factor and an essential area for sustainability-conscious organizations to address. <strong>H2O Sentinel</strong> makes reducing water usage easy and efficient. With <strong>H2O Sentinel</strong>, your business can:
-            </p>
-            <ul>
-                <li>Pinpoint areas of water waste</li>
-                <li>Precisely monitor water flow in real-time</li>
-                <li>Access detailed reports and dashboards that provide comprehensive insights into water usage</li>
-                <li>Utilize actionable insights through <strong>H2O Sentinel's</strong> water-use KPIs and advanced analytics</li>
-            </ul>
-            <p>
-                On average, <strong>H2O Sentinel</strong> users reduce their water consumption by 20% to 30%, making sustainability achievable and cost-effective.
-            </p>
-        </div>
-        <div className="buttom-part">
-            <PlansandPricing/>
-        </div>
+      </div>
+      <div className="left words">
+        <h1>Safeguard Against Water Leaks, Secure Crop Yields</h1>
+        <p>
+          Water is essential for agriculture, but when leaks occur in irrigation systems, they can cause severe damage to your crops and operations. From uneven water distribution to soil erosion and reduced crop yields, the consequences can be devastating.
+        </p>
+        <p>
+          With <strong>H2O Sentinel</strong>, monitoring your farm's irrigation systems becomes effortless. Leaks and inefficiencies are detected early, preventing costly damage and ensuring consistent crop watering. Our solution uses advanced sensors to monitor water flows in real-time, detecting anomalies before they escalate into major issues.
+        </p>
+        <p>
+          <strong>H2O Sentinel</strong> offers automated and remote shut-off capabilities, allowing you to react instantly to any irrigation-related problems, no matter where you are. Our cloud-based platform gives you full control and visibility, ensuring your crops receive the right amount of water at the right time.
+        </p>
+      </div>
+      <div className="right words">
+        <h1>Optimize Water Efficiency, Save Resources</h1>
+        <p>
+          Water is not only essential for crop growth but also a critical cost factor in farming operations. <strong>H2O Sentinel</strong> simplifies water management, making it easy to reduce water wastage and improve efficiency in irrigation systems. With <strong>H2O Sentinel</strong>, your farm can:
+        </p>
+        <ul>
+          <li>Pinpoint areas of water waste in irrigation systems</li>
+          <li>Precisely monitor water flow in real-time across different zones</li>
+          <li>Access detailed reports and dashboards that provide insights into water usage and efficiency</li>
+          <li>Utilize actionable insights from <strong>H2O Sentinel's</strong> advanced analytics to optimize water distribution</li>
+        </ul>
+        <p>
+          On average, farms using <strong>H2O Sentinel</strong> reduce their water consumption by 20% to 30%, making water management more sustainable and cost-effective.
+        </p>
+      </div>
+      <div className="buttom-part">
+        <PlansandPricing />
+      </div>
     </div>
   );
 }
